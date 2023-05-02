@@ -1,0 +1,40 @@
+.sidebar{
+    height: 400px;
+    width: 80px;
+    border: 2px solid #838383;
+    border-radius: 30px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    bottom: 10%;
+    z-index: 1000;
+}
+
+.sidebar-menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.sidebar-link{
+    list-style-type: none;
+    text-align: center;
+}
+
+.icons{
+    font-size: 22px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.icons:hover{
+    color: #6b4f12;
+}

@@ -1,0 +1,27 @@
+.about{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    flex-grow: inherit;
+}
+
+
+.about-section >*{
+    color: azure;
+}
+
+.about-section >h1{
+    font-size: 42px;
+}
+
+.about-section  > h2{
+    font-size: 32px;
+}

@@ -1,0 +1,82 @@
+.contact{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-family: 'Roboto',sans-serif;
+}
+
+.contact-form{
+    height: 60%;
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgba(238, 232, 232, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+.contact-form > h2{
+    font-size: 22px;
+    color: rgba(8, 1, 1, 0.2);
+    font-weight: 300;
+}
+.user-contact--section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.row-first{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.row-first >*{
+    height: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row-first>input{
+    height: 40px;
+    border:0;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.user-info--section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;   
+}
+
+.msg-area{
+    height: 100px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.submit-btn{
+    width: 80%;
+    margin: 0 auto;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
